@@ -1,3 +1,5 @@
+Por: David Alzate Cardona
+
 Problema a solucionar:
 
 Se desea contar los muertos que hay en cada país  por COVID-19, estos datos están en un archivo .csv y se desea usar paralelismo para que arroje un resultado rápido.

@@ -6,6 +6,7 @@ Referencias de programación:
 
 http://progra.usm.cl/apunte/c/contar-palabras.html
 https://es.stackoverflow.com/questions/47579/c%C3%B3mo-leer-datos-individuales-de-archivo-csv-en-c
+
 Diseño PCAM
 
   Particionado:

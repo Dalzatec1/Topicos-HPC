@@ -1,9 +1,13 @@
 Problema a solucionar:
+
 Se desea contar los muertos que hay en cada país  por COVID-19, estos datos están en un archivo .csv y se desea usar paralelismo para que arroje un resultado rápido.
+
 Referencias de programación:
+
 http://progra.usm.cl/apunte/c/contar-palabras.html
 https://es.stackoverflow.com/questions/47579/c%C3%B3mo-leer-datos-individuales-de-archivo-csv-en-c
 Diseño PCAM
+
   Particionado:
     T1: Cargar archivo.
     T2: Hacer una lista con los países que hay en el archivo.
@@ -12,6 +16,7 @@ Diseño PCAM
     T5: Asignarle a cada país el número de muertos que hay en ese país.
     t6: Ordena ascendentemente los países con más casos de muertos.
     T7: Generar salida del programa.
+
 
 
   Comunicación:

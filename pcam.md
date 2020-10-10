@@ -28,9 +28,15 @@ Diseño PCAM
  
 
   Aglomeración:
+  
     Replicación de procesos: [T1], [T2], [T3], [T4], [T5], [T6]
+    
     Clúster de tareas:       [T1-T2] [T5-T6] [T3] [T4]
+    
     Cargado de datos: [T1]
+    
     Guardado de datos: [T6]
+    
     Disposición de datos: [T5]
+    
     Procesado de datos: [T4]

@@ -39,7 +39,7 @@ string a[12];
 
         }
        
-
+return tid;
     }
 
 
@@ -61,7 +61,7 @@ string a[12];
             
                 std::string delimiter = "\",\"";
                 size_t pos = 0;
-                std::string token;
+                string token;
                 while ((pos = line.find(delimiter)) != std::string::npos) {
                     token = line.substr(0, pos);
                     a[i]=token;
@@ -71,7 +71,7 @@ string a[12];
             if(paises[x]==a[6]){
                 cast=stoi(a[5]);
                 aux+=cast;
-                dcast=std::to_string(aux);
+                dcast=to_string(aux);
                 mppais[x][1]=dcast;
             }
             else
@@ -80,7 +80,7 @@ string a[12];
                 x++;
                 cast=stoi(a[5]);
                 aux+=cast;
-                dcast=std::to_string(aux);
+                dcast=to_string(aux);
                 mppais[x][1]=dcast;
             }
 
